@@ -160,7 +160,7 @@ const schema = {
   pullRequestBody: {
     doc: 'Text to be used as the pull request body when pushing moderated entries.',
     format: String,
-    default: 'Hi!,\n\nKtoś właśnie napisał komentarz.\n\n---\n'
+    default: 'Cześć!,\nKtoś właśnie napisał komentarz.\nWażne: Sprawdź jego zawartosć przed zatwierdzeniem!\n---\n'
   },
   requiredFields: {
     doc: 'An array with the names of the fields that must be supplies as part of an entry. If any of these is not present, the entry will be discarded and an error will be thrown.',
