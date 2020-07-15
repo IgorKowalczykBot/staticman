@@ -3,7 +3,7 @@ try {
   const api = new StaticmanAPI()
 
   api.start(port => {
-    console.log('Staticman API running on port', port)
+    console.log('API runing on ', port)
   })
 } catch (e) {
   console.error(e)

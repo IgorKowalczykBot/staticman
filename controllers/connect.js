@@ -35,7 +35,7 @@ module.exports = async (req, res) => {
     })
 
     if (!invitation) {
-      return res.status(404).send('Invitation not found')
+      return res.status(404).send('Invitation not found!')
     }
 
     return github.api.repos.acceptInvitation({

@@ -1,7 +1,7 @@
 {
   "name": "staticman",
-  "version": "3.0.0",
-  "description": "Static sites with superpowers",
+  "version": "0.0.0",
+  "description": "A repo to deliver comments to @igorkowalczyk/blog",
   "main": "index.js",
   "scripts": {
     "prestart": "if [ ! -d node_modules ]; then npm install; fi",
@@ -13,16 +13,7 @@
   "engines": {
     "node": ">=8.11.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eduardoboucas/staticman.git"
-  },
-  "author": "Eduardo Boucas <mail@eduardoboucas.com> (https://eduardoboucas.com/)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eduardoboucas/staticman/issues"
-  },
-  "homepage": "https://github.com/eduardoboucas/staticman#readme",
   "dependencies": {
     "@dadi/logger": "^1.4.1",
     "@octokit/app": "^4.1.0",

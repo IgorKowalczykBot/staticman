@@ -42,7 +42,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "eduardoboucas.com"
+  name: "igorkowalczyk.github.io"
   
   notifications:
     enabled: true
@@ -91,7 +91,7 @@ module.exports.config2 = `{
     ],
     "allowedOrigins": [
       "localhost",
-      "eduardoboucas.com"
+      "igorkowalczyk.github.io"
     ],
     "branch": "master",
     "generatedFields": {
@@ -104,7 +104,7 @@ module.exports.config2 = `{
     },
     "format": "yaml",
     "moderation": false,
-    "name": "eduardoboucas.com",
+    "name": "igorkowalczyk.github.io",
     "notifications": {
       "enabled": true
     },
@@ -128,7 +128,7 @@ module.exports.config2 = `{
 
 module.exports.config3 = `comments:
   allowedFields: ["name", "email", "url", "message"]
-  allowedOrigins: ["localhost", "eduardoboucas.com"]
+  allowedOrigins: ["localhost", "igorkowalczyk.github.io"]
   branch: "master"
   generatedFields:
     date:
@@ -137,7 +137,7 @@ module.exports.config3 = `comments:
         format: "timestamp-seconds"
   format: "yaml"
   moderation: false
-  name: "eduardoboucas.com"
+  name: "igorkowalczyk.github.io"
   notifications:
     enabled: true
   path: "_data/comments/{options.slug}"
@@ -168,7 +168,7 @@ Merge the pull request to accept it, or close it to send it away.
 | message | This is a test entry             |
 | date    | 1485597255                       |
 
-<!--staticman_notification:{"configPath":{"file":"staticman.yml","path":"comments"},"fields":{"name":"John","email":"017dab421e1e1cf6257bcadc0d289c62","url":"http://johndoe.com","address":"","message":"This is a test entry","date":1485597255},"options":{"slug":"2015-05-11-rethinking-the-commenting-system-for-my-jekyll-site","parent":"2015-05-11-rethinking-the-commenting-system-for-my-jekyll-site","origin":"https://eduardoboucas.com/blog/2015/05/11/rethinking-the-commenting-system-for-my-jekyll-site.html","subscribe":"email"},"parameters":{"username":"eduardoboucas","repository":"eduardoboucas.github.io","branch":"master","property":"comments"}}-->`
+<!--notification:{"configPath":{"file":"staticman.yml","path":"comments"},"fields":{"name":"John","email":"017dab421e1e1cf6257bcadc0d289c62","url":"http://johndoe.com","address":"","message":"This is a test entry","date":1485597255},"options":{"slug":"2015-05-11-rethinking-the-commenting-system-for-my-jekyll-site","parent":"2015-05-11-rethinking-the-commenting-system-for-my-jekyll-site","origin":"https://eduardoboucas.com/blog/2015/05/11/rethinking-the-commenting-system-for-my-jekyll-site.html","subscribe":"email"},"parameters":{"username":"eduardoboucas","repository":"eduardoboucas.github.io","branch":"master","property":"comments"}}-->`
 
 module.exports.prBody2 = `Dear human,
 

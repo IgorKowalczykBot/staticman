@@ -20,10 +20,10 @@ const rsa = new NodeRSA()
 rsa.importKey(config.get('rsaPrivateKey'), 'private')
 
 const fields = {
-  name: 'Eduardo Bouças',
-  email: 'mail@eduardoboucas.com',
-  url: 'https://eduardoboucas.com',
-  message: 'This is a sample comment'
+  name: 'Igor Kowalczyk',
+  email: 'xxmajonezxx@gmail.com',
+  url: 'https://igorkowalczyk.github.io',
+  message: 'Komentarz'
 }
 
 const parameters = {

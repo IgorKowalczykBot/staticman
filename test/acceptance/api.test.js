@@ -239,7 +239,7 @@ describe('Entry endpoint', () => {
       })
 
     const form = {
-      'fields[name]': 'Eduardo Boucas'
+      'fields[name]': 'Igor Kowalczyk'
     }
     const formData = querystring.stringify(form)
 
@@ -255,7 +255,7 @@ describe('Entry endpoint', () => {
 
       expect(error.success).toBe(false)
       expect(error.errorCode).toBe('MISSING_CONFIG_BLOCK')
-      expect(error.message).toBe('Error whilst parsing Staticman config file')
+      expect(error.message).toBe('Error whilst parsing config file')
       expect(error.rawError).toBeDefined()
     })
   })
